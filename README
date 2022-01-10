@@ -1,0 +1,8 @@
+*Testing for hello world*
+
+To compile and run for 'hello world', run the following commands in the home directory: 
+1. docker build . 
+2. docker run --rm -it -v `pwd`:/home/vowel -w=/home/vowel <image_id>
+3. make 
+
+The test for hello world is the following file: test-cobytest.mc 
