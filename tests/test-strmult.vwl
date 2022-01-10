@@ -1,0 +1,9 @@
+int foo(){
+    string a = "hello";
+    string b = " ";
+    b = a * 3; 
+    printstr(b);
+
+}
+
+foo();
